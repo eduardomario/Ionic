@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Tab Two
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item>
+        <ion-label>Name</ion-label>
+        <ion-input [(ngModel)]="data.nombre" placeholder="Enter Name"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Age</ion-label>
+        <ion-input [(ngModel)]="data.correo" placeholder="Enter Email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Address</ion-label>
+        <ion-input [(ngModel)]="data.pass" placeholder="Enter Password"></ion-input>
+      </ion-item>
+      <ion-button (click)="update()" color="success" size="small">
+        Update
+      </ion-button>
+      <ion-button [routerLink]="[ '/menu/tab/tab1']" color="danger" size="small">
+        Cancel
+      </ion-button>
+</ion-content>

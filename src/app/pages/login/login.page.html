@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="loginForm">
+    <ion-list class="userForm">
+      <ion-item class="userInputs">
+        <ion-label position="stacked">Usuario</ion-label>
+        <ion-input formControlName="user"  type="email" (ionBlur)="checkUser()"></ion-input>
+      </ion-item>
+      <ion-item class="errorText" [hidden]="userHide">
+        <ion-label color="danger">{{userError}}</ion-label>
+      </ion-item>
+      <ion-item class="userInputs">
+        <ion-label position="stacked">Contraseña</ion-label>
+        <ion-input formControlName="password" type="password" (ionBlur)="checkPassword()"></ion-input>
+      </ion-item>
+      <ion-item class="errorText" [hidden]="passHide">
+        <ion-label color="danger">{{passError}}</ion-label>
+      </ion-item>
+    </ion-list>
+    <div class="userFormButtons">
+      <ion-button expand="full" (click)="login()" [disabled]="!loginForm.valid" class="loginButton">INICIAR</ion-button>
+      <br>
+      <ion-button size="small" (click)="regirtro()">Registrarme</ion-button>
+      <ion-button size="small">Olvidé mi Contraseña</ion-button>
+    </div>
+  </form>
+</ion-content>

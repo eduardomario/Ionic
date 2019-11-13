@@ -1,0 +1,34 @@
+.registroForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+}
+
+.registroFormButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registroButton {
+    width: 98%;
+}
+
+.generoButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+}
+
+.itemCenter {
+    margin: auto;
+    padding: 10px;
+}
+
+.underlineLink {
+    text-decoration: underline;
+}

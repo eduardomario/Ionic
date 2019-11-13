@@ -1,0 +1,22 @@
+.userForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+}
+
+.userInputs {
+    width: 95%;
+}
+
+.userFormButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginButton {
+    width: 98%; 
+}
