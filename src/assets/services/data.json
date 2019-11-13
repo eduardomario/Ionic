@@ -1,0 +1,69 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "nombre": "Enola",
+      "apellidoPaterno": "Martinez",
+      "apellidoMaterno": "Lopez",
+      "correo": "test1@gmail.com",
+      "pass": "qweASD123",
+      "fecha": "string",
+      "codigoPostal": "12345",
+      "genero": "2",
+      "telefono": "1234567890",
+      "notificacion": true
+    },
+    {
+      "id": 2,
+      "nombre": "Timmothy",
+      "apellidoPaterno": "Martinez",
+      "apellidoMaterno": "Lopez",
+      "correo": "test2@gmail.com",
+      "pass": "qweASD123",
+      "fecha": "string",
+      "codigoPostal": "12345",
+      "genero": "2",
+      "telefono": "1234567890",
+      "notificacion": true
+    },
+    {
+      "id": 3,
+      "nombre": "Madilyn Pacocha",
+      "apellidoPaterno": "Martinez",
+      "apellidoMaterno": "Lopez",
+      "correo": "test3@gmail.com",
+      "pass": "qweASD123",
+      "fecha": "string",
+      "codigoPostal": "12345",
+      "genero": "2",
+      "telefono": "1234567890",
+      "notificacion": true
+    },
+    {
+      "id": 4,
+      "nombre": "Harley Cremin",
+      "apellidoPaterno": "Martinez",
+      "apellidoMaterno": "Lopez",
+      "correo": "test4@gmail.com",
+      "pass": "qweASD123",
+      "fecha": "string",
+      "codigoPostal": "12345",
+      "genero": "2",
+      "telefono": "1234567890",
+      "notificacion": true
+    },
+    {
+      "nombre": "Eduardo",
+      "apellidoPaterno": "Pacreu",
+      "apellidoMaterno": "Mendez",
+      "correo": "test5@gmail.com",
+      "pass": "qweASD123",
+      "fecha": "1976-11-11T00:00:00-06:00",
+      "codigoPostal": "12345",
+      "genero": "1",
+      "telefono": "",
+      "notificacion": true,
+      "id": 5
+    }
+  ]
+}
