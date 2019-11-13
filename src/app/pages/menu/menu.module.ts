@@ -11,14 +11,12 @@ import { LoginGuard } from 'src/app/guards/login.guard';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
-  {
-    path: '',
     component: MenuPage,
     children: [
-      { path: 'home', loadChildren: () => import('../home/home.module').then( m => m.HomePageModule), canActivate: [LoginGuard]},
+      {
+        path: 'tab',
+        loadChildren: '../tabs/tabs.module#TabsPageModule'
+      },
     ]
   }
 ];
