@@ -18,6 +18,7 @@ log.txt
 npm-debug.log*
 package-lock.json*
 
+/resources
 /.idea
 /.ionic
 /.sass-cache
